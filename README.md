@@ -99,6 +99,7 @@ body{
 ```
 The JS code for the app is as follows:
 ### JS
+```
 
 const btn = document.getElementById("btn");
 const carContainer = document.querySelector(".car-container");
