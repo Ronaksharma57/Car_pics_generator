@@ -11,7 +11,7 @@ btn.addEventListener("click", async function () {
     btn.innerText = "Get Cars";
     carContainer.style.display = "block";
     carImg.src = data.links.download;
-    carName.innerText = data.exif.model;
+    carName.innerText = data.alt_description;
   } catch (error) {
     console.log(error);
     btn.disabled = false;
